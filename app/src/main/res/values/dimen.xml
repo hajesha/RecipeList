@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_padding_1">20dp</dimen>
+    <dimen name="app_padding_2">30dp</dimen>
+    <dimen name="app_minor_padding">10dp</dimen>
+    <dimen name="row_spacing">0.5dp</dimen>
+</resources>

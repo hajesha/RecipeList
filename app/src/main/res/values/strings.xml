@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recipe List</string>
+    <string name="positive_button">Add</string>
+    <string name="negative_button">Cancel</string>
+    <string name="recipe_title">Recipes</string>
+    <string name="recipe_description">Here is a list of all the recipe names you wanted to save</string>
+    <string name="add_hint">Please enter recipe name</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#EC0E00</color>
+    <color name="colorPrimary">#B80900</color>
+    <color name="close_button">#B80900</color>
+    <color name="background">#1BBEBEBE</color>
+</resources>
