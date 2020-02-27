@@ -15,7 +15,7 @@ import androidx.fragment.app.DialogFragment;
 public class AddRecipeDialogFragment extends DialogFragment {
 
     public interface AddRecipeDialogListener {
-        void onDialogPositiveClick(AddRecipeDialogFragment dialog, String text);
+        void onDialogPositiveClick(AddRecipeDialogFragment dialog, String name, String ingred);
 
         void onDialogNegativeClick(AddRecipeDialogFragment dialog);
     }
@@ -37,8 +37,9 @@ public class AddRecipeDialogFragment extends DialogFragment {
         builder.setView(dialogLayout)
                 .setPositiveButton(R.string.positive_button, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        EditText editText = dialogLayout.findViewById(R.id.recipe_name);
-                        listener.onDialogPositiveClick(AddRecipeDialogFragment.this, editText.getText().toString());
+                        EditText nameText = dialogLayout.findViewById(R.id.recipe_name);
+                        EditText ingredientText = dialogLayout.findViewById(R.id.recipe_ingredients);
+                        listener.onDialogPositiveClick(AddRecipeDialogFragment.this, nameText.getText().toString(), ingredientText.getText().toString());
                     }
                 })
                 .setNegativeButton(R.string.negative_button, new DialogInterface.OnClickListener() {
