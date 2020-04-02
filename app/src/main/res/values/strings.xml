@@ -7,4 +7,5 @@
     <string name="recipe_description">Here is a list of all the recipe names you wanted to save</string>
     <string name="add_hint_name">Please enter recipe name</string>
     <string name="add_hint_ingred">Please enter list of recipes</string>
+    <string name="search_hint_ingred">Search ingredients</string>
 </resources>

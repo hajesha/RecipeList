@@ -107,6 +107,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
 
     void addFood(@NonNull RecipeObject food) {
         listOfFood.add(food);
+        filteredData.add(food);
     }
 
     static class FoodViewHolder extends RecyclerView.ViewHolder {

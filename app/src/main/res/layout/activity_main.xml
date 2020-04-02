@@ -35,10 +35,11 @@
 
         <androidx.appcompat.widget.SearchView
             android:id="@+id/search_food"
-            android:background="@color/background"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:layout_gravity="end"
+            android:gravity="end"
+            app:queryHint="@string/search_hint_ingred"
             android:paddingTop="@dimen/app_minor_padding"/>
     </LinearLayout>
 
